@@ -36,13 +36,6 @@ nav {
     padding: 2rem; 
 }
     
-.color img:hover{
-    filter: grayscale(0%);
-filter: gray;
--webkit-filter: grayscale(0%);
-filter: none;
-transition: 1s ease;
-}
 
 h1 {
     color: #2e2e1f;
@@ -51,6 +44,17 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 2rem; 
+}
+
+h2 {
+    color: #2e2e1f;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
 }
 
 nav a {  
@@ -58,7 +62,6 @@ nav a {
     text-decoration: none;
     margin: 0 0 0 2rem;
 }
-
 
 
 a h1:hover {
@@ -73,7 +76,20 @@ a h1:visited {
 main {
     max-width: 70.25rem;
     margin: auto;
+    text-align: center;
 }
+    .circle {
+        width: 500px;
+        height: 500px;
+        line-height: 500px;
+        border-radius: 50%;
+        font-size: 50px;
+        color:#FF3535;
+        text-align: center;
+        background:#3D3AE8;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+      }
 
 
 
@@ -84,7 +100,12 @@ p {
 
 footer {
     text-align: right;
+    width: 300px;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
 }
+
 
 .selected {
     color: #FF3535;
@@ -92,15 +113,23 @@ footer {
 
 #byline {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    background-color: #ffb1b1;
+    margin: %;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 #intro {
     font-size: 1rem;
     width: 50;
     height: 40px;
-    padding: 40px;
+    padding: px;
     margin: 2%;
+    text-align: center;
 }
 
 .center {
@@ -109,6 +138,33 @@ footer {
     margin-right: auto;
     width: 50%;
     padding: 5%;
-  }
+}
 
+#splashlogo {
+    text-align: center;
+    margin-top: 20%;
+}
 
+#splashlogo img:hover{
+    filter: opacity(50%);
+}
+
+#archall img:hover{
+    filter: opacity(50%);
+}
+
+#flowers img:hover{
+    filter:opacity(50%);
+}
+
+#logo img:hover{
+    filter:grayscale(25%);
+}
+
+#sfmuni img:hover{
+    filter:opacity(50%);
+}
+
+#puzzle img:hover{
+    filter:opacity(50%);
+}
